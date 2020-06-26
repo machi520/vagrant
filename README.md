@@ -18,3 +18,6 @@ virtual box/vagrantの使い方メモ
 # Vagrantfileの編集
 - httpサーバーを使えるように以下の行の先頭のコメントアウト(#)を消す  config.vm.network "private_network", ip: "192.168.33.10"
 - 仮想マシンとローカルマシンの共有フォルダは以下の行を参照・編集  config.vm.synced_folder
+
+# ssh接続
+- vagrant ssh-config  ssh接続情報の確認
